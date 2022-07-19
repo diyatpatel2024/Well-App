@@ -14,6 +14,8 @@
 		7DCB42E928870E9500B2AF2B /* Well_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DCB42E728870E9500B2AF2B /* Well_App.xcdatamodeld */; };
 		7DCB42EB28870E9700B2AF2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DCB42EA28870E9700B2AF2B /* Assets.xcassets */; };
 		7DCB42EE28870E9700B2AF2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCB42EC28870E9700B2AF2B /* LaunchScreen.storyboard */; };
+		7DCB42F82887284400B2AF2B /* self-careVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCB42F72887284400B2AF2B /* self-careVCViewController.swift */; };
+		7DCB42FA288728AB00B2AF2B /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCB42F9288728AB00B2AF2B /* JournalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		7DCB42EA28870E9700B2AF2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DCB42ED28870E9700B2AF2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DCB42EF28870E9700B2AF2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DCB42F72887284400B2AF2B /* self-careVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "self-careVCViewController.swift"; sourceTree = "<group>"; };
+		7DCB42F9288728AB00B2AF2B /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 		7DCB42D228870E9500B2AF2B = {
 			isa = PBXGroup;
 			children = (
+				7DCB42F72887284400B2AF2B /* self-careVCViewController.swift */,
 				7DCB42DD28870E9500B2AF2B /* Well App */,
 				7DCB42DC28870E9500B2AF2B /* Products */,
 			);
@@ -62,6 +67,7 @@
 				7DCB42E028870E9500B2AF2B /* SceneDelegate.swift */,
 				7DCB42E228870E9500B2AF2B /* ViewController.swift */,
 				7DCB42E428870E9500B2AF2B /* Main.storyboard */,
+				7DCB42F9288728AB00B2AF2B /* JournalViewController.swift */,
 				7DCB42EA28870E9700B2AF2B /* Assets.xcassets */,
 				7DCB42EC28870E9700B2AF2B /* LaunchScreen.storyboard */,
 				7DCB42EF28870E9700B2AF2B /* Info.plist */,
@@ -142,8 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DCB42E328870E9500B2AF2B /* ViewController.swift in Sources */,
+				7DCB42F82887284400B2AF2B /* self-careVCViewController.swift in Sources */,
 				7DCB42E928870E9500B2AF2B /* Well_App.xcdatamodeld in Sources */,
 				7DCB42DF28870E9500B2AF2B /* AppDelegate.swift in Sources */,
+				7DCB42FA288728AB00B2AF2B /* JournalViewController.swift in Sources */,
 				7DCB42E128870E9500B2AF2B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
