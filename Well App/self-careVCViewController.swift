@@ -9,6 +9,27 @@ import UIKit
 
 class self_careVCViewController: UIViewController {
 
+    
+    
+    @IBOutlet weak var generatedIdea: UILabel!
+    
+    var clickCount = 0
+    
+    @IBAction func selfcareButton(_ sender: Any) {
+        generatedIdea.text = selfCareIdeas[clickCount]
+        clickCount += 1
+        if clickCount > selfCareIdeas.count-1 {
+            clickCount = 0
+    }
+    }
+    
+    let selfCareIdeas = ["Take a walk", "Go outside and get some fresh air", "Take some deep breaths", "Drink some water", "Organize your space", "Journal your thoughts", "Break down a big task", "Take a shower or a bath", "Listen to your favorite music", "Set goals", "Take a break", "Reflect"]
+     
+
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

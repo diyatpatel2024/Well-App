@@ -180,12 +180,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Click here for a self-care idea!"/>
+                                <connections>
+                                    <action selector="selfcareButton:" destination="Fuw-Rd-8Bl" eventType="touchUpInside" id="hId-wq-JEA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QBr-OC-U0l"/>
                         <color key="backgroundColor" red="0.54953074459999995" green="0.85484278199999997" blue="0.86301344629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="bq3-lh-veb"/>
+                    <connections>
+                        <outlet property="generatedIdea" destination="olq-4p-NvB" id="zca-rm-f9x"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HYV-mp-akA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
