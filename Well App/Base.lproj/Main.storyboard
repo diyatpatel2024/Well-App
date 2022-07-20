@@ -36,7 +36,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="6nD-hl-K8d" kind="presentation" modalPresentationStyle="fullScreen" id="t24-l5-cmC"/>
+                                    <segue destination="6nD-hl-K8d" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="t24-l5-cmC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceA-GP-bSu">
@@ -53,7 +53,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="Fuw-Rd-8Bl" kind="presentation" modalPresentationStyle="fullScreen" id="f1f-FQ-SWb"/>
+                                    <segue destination="Fuw-Rd-8Bl" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="f1f-FQ-SWb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oA2-IY-jhA">
@@ -109,7 +109,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="6nD-hl-K8d" kind="presentation" modalPresentationStyle="fullScreen" id="ij5-GL-HhL"/>
+                                    <segue destination="6nD-hl-K8d" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="ij5-GL-HhL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rrx-Gn-B8U">
@@ -141,7 +141,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="b8s-KI-HJE"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="b8s-KI-HJE"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -193,7 +193,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="7H4-ZM-TO5"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="7H4-ZM-TO5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTC-Wd-7iB">
@@ -210,7 +210,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="Fuw-Rd-8Bl" kind="presentation" modalPresentationStyle="fullScreen" id="bPI-1U-W2P"/>
+                                    <segue destination="Fuw-Rd-8Bl" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="bPI-1U-W2P"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -227,7 +227,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="t24-l5-cmC"/>
         <segue reference="f1f-FQ-SWb"/>
-        <segue reference="b8s-KI-HJE"/>
+        <segue reference="7H4-ZM-TO5"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Droplet Icon" width="100" height="100"/>
