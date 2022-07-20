@@ -46,7 +46,6 @@
 		7DCB42D228870E9500B2AF2B = {
 			isa = PBXGroup;
 			children = (
-				7DCB42F72887284400B2AF2B /* self-careVCViewController.swift */,
 				7DCB42DD28870E9500B2AF2B /* Well App */,
 				7DCB42DC28870E9500B2AF2B /* Products */,
 			);
@@ -67,6 +66,7 @@
 				7DCB42E028870E9500B2AF2B /* SceneDelegate.swift */,
 				7DCB42E228870E9500B2AF2B /* ViewController.swift */,
 				7DCB42E428870E9500B2AF2B /* Main.storyboard */,
+				7DCB42F72887284400B2AF2B /* self-careVCViewController.swift */,
 				7DCB42F9288728AB00B2AF2B /* JournalViewController.swift */,
 				7DCB42EA28870E9700B2AF2B /* Assets.xcassets */,
 				7DCB42EC28870E9700B2AF2B /* LaunchScreen.storyboard */,
