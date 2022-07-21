@@ -61,19 +61,27 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eol-9a-2Ou">
-                                <rect key="frame" x="149" y="818" width="98" height="44"/>
+                                <rect key="frame" x="158" y="817" width="98" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.67429012060000004" green="0.6040385962" blue="0.52620208260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Home">
                                             <attributes>
-                                                <font key="NSFont" size="16" name="Helvetica"/>
+                                                <font key="NSFont" size="18" name="Chalkduster"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
+                                    <color key="baseBackgroundColor" red="0.67429012060000004" green="0.6040385962" blue="0.52620208260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="We want to be an app that's a well for your well-being. Click the button below for an inspirational quote to refresh your day." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0e-NH-ZCc">
                                 <rect key="frame" x="24" y="399" width="367" height="246"/>
@@ -83,7 +91,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oM9-zn-zh4">
-                                <rect key="frame" x="122" y="653" width="171" height="69"/>
+                                <rect key="frame" x="89" y="653" width="238" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.83908587690000003" green="0.80006438489999998" blue="0.75918686390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.27823728320000002" green="0.15308055279999999" blue="0.04365497082" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -165,23 +173,15 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Home">
                                             <attributes>
-                                                <font key="NSFont" size="16" name="Helvetica"/>
+                                                <font key="NSFont" size="18" name="Chalkduster"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
+                                    <color key="baseBackgroundColor" red="0.67429012060000004" green="0.6040385962" blue="0.52620208260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="b8s-KI-HJE"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8y-Dc-x8u">
-                                <rect key="frame" x="98" y="136" width="228" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Click here for a self-care idea!"/>
-                                <connections>
-                                    <action selector="selfcareButton:" destination="Fuw-Rd-8Bl" eventType="touchUpInside" id="hId-wq-JEA"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Self-care ideas" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olq-4p-NvB">
@@ -191,6 +191,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8y-Dc-x8u">
+                                <rect key="frame" x="45" y="136" width="325" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Click here for a self-care idea!">
+                                    <fontDescription key="titleFontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                    <color key="baseForegroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                                    <color key="baseBackgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="selfcareButton:" destination="Fuw-Rd-8Bl" eventType="touchUpInside" id="hId-wq-JEA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QBr-OC-U0l"/>
                         <color key="backgroundColor" red="0.54953074459999995" green="0.85484278199999997" blue="0.86301344629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -251,11 +265,12 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Home">
                                             <attributes>
-                                                <font key="NSFont" size="16" name="Helvetica"/>
+                                                <font key="NSFont" size="18" name="Chalkduster"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
+                                    <color key="baseBackgroundColor" red="0.67429012060000004" green="0.6040385962" blue="0.52620208260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="HN1-pb-Dca"/>
@@ -273,12 +288,15 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="t24-l5-cmC"/>
+        <segue reference="ij5-GL-HhL"/>
         <segue reference="f1f-FQ-SWb"/>
         <segue reference="b8s-KI-HJE"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Droplet Icon-2" width="201" height="215"/>
         <image name="Screen_Shot_2022-07-18_at_11.05.15_AM-removebg-preview (1)" width="482" height="498"/>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
