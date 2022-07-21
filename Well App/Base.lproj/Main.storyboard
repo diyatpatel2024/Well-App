@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -35,6 +36,11 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="6nD-hl-K8d" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="t24-l5-cmC"/>
                                 </connections>
@@ -52,6 +58,11 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="Fuw-Rd-8Bl" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="f1f-FQ-SWb"/>
                                 </connections>
@@ -147,6 +158,11 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="6nD-hl-K8d" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="ij5-GL-HhL"/>
                                 </connections>
@@ -164,6 +180,11 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5xk-jv-mQs">
                                 <rect key="frame" x="163" y="818" width="89" height="44"/>
@@ -180,6 +201,11 @@
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.67429012060000004" green="0.6040385962" blue="0.52620208260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="b8s-KI-HJE"/>
                                 </connections>
@@ -239,6 +265,11 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTC-Wd-7iB">
                                 <rect key="frame" x="29" y="818" width="89" height="44"/>
@@ -253,6 +284,11 @@
                                         </fragment>
                                     </attributedString>
                                 </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="Fuw-Rd-8Bl" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="bPI-1U-W2P"/>
                                 </connections>
@@ -272,6 +308,11 @@
                                     </attributedString>
                                     <color key="baseBackgroundColor" red="0.67429012060000004" green="0.6040385962" blue="0.52620208260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="HN1-pb-Dca"/>
                                 </connections>
@@ -289,8 +330,8 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="ij5-GL-HhL"/>
-        <segue reference="f1f-FQ-SWb"/>
-        <segue reference="b8s-KI-HJE"/>
+        <segue reference="bPI-1U-W2P"/>
+        <segue reference="HN1-pb-Dca"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Droplet Icon-2" width="201" height="215"/>
